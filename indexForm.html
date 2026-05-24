@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Started Now</title>
+  <link rel="stylesheet" href="style2.css">
+  <!-- Подключаем иконки для Google и Apple -->
+  <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Левая часть с формой -->
+    <div class="form-section">
+      <h1>Get Started Now</h1>
+      <form id="signup-form">
+        <div class="input-group">
+          <label>Name</label>
+          <input type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="input-group">
+          <label>Email</label> <!-- Исправил метку для логики -->
+          <input type="email" placeholder="Enter your email" required>
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="btn-signup">Signup</button>
+      </form>
+      <div class="divider">
+        <span>Or</span>
+      </div>
+      <div class="social-buttons">
+        <button class="btn-social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google">
+          Sign in with Google
+        </button>
+        <button class="btn-social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+          Sign in with Apple
+        </button>
+      </div>
+      <p class="footer-text">Have an account? <a href="#">Sign In</a></p>
+    </div>
+    <!-- Правая часть с изображением -->
+    <div class="image-section">
+      <img src="https://images.unsplash.com/photo-1614594975525-e45190c55d0b?q=80&w=1000&auto=format&fit=crop"
+        alt="Monstera plant">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

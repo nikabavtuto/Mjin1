@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Mjin Pixel Perfect</title>
+  <link rel="stylesheet" href="style-2.css">
+</head>
+
+<body>
+  <div class='wrap'>
+    <header class='top'>
+      <div class='logo'>Mjin</div>
+      <div class='search'><input placeholder='Искать на Mjin'></div>
+      <div class="header-actions">
+        <div class='shop-trigger' id="cartBtn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+            <path d="M3 6h18" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+          <span id="cartCount">0</span>
+        </div>
+        <button class="login-btn" onclick="openModal()">Войти</button>
+      </div>
+    </header>
+
+
+    <section class='hero'>
+      <div class='heroBox'>
+        <h2>T-shirt printing made easy.</h2>
+        <p>Create your design for your online business</p>
+        <button href='#' class="custom-btn btn-7"><span>Create A T-shirt</span></button>
+
+        <img src='./img/1A-1-800x800.png'>
+      </div>
+      <div class='heroBox'>
+        <h2>Bring your ideas to life in minute</h2>
+        <p>Print shirts for yourself or your creative works</p>
+        <button href='#' class="custom-btn btn-7"><span>Shop Now</span></button>
+        <img class="banner" src='./img/Link → banner-42.jpg.png'>
+      </div>
+    </section>
+    <section class='section'>
+      <div class='grid4'>
+        <div class='card'>
+          <h3>Why customize products with TeeSpace?</h3>
+          <p class='small'>Lorem ipsum det, covec tetur duis necgi det, consec teturalgis adipisicing elit duis necgi
+            det, con</p><button class="custom-btn btn-7"><span>View All Features</span></button>
+        </div>
+        <div class='card'>
+          <div class='icon'><img src="./img/Link.png" alt=""></div><b>Custom size & style</b>
+          <p class='small'>Lorem ipsum det, covec tetur duis necgi det</p>
+        </div>
+        <div class='card'>
+          <div class='icon'><img src="./img/Link (1).png" alt=""></div><b>Fast & free delivery</b>
+          <p class='small'>Lorem ipsum det, covec tetur duis necgi det</p>
+        </div>
+        <div class='card'>
+          <div class='icon'><img src="./img/Link (2).png" alt=""></div><b>Secure payment</b>
+          <p class='small'>Lorem ipsum det, covec tetur duis necgi det</p>
+        </div>
+      </div>
+      <div class='promo'>
+        <div>
+          <h3>Create your own custom products online!</h3>
+          <p class='small'>Free and easy way to bring your ideas to life</p><button class="custom-btn btn-7"><span>Order
+              Custom Shirts</span></button>
+        </div><img class="banner-img" src='./img/Link → banner-28.png.png'>
+      </div>
+      <div class='cats'>
+        <div class='cat'><img src='./img/Container (4).png'><span>Men’s</span><small>SALE OFF
+            20%</small></div>
+        <div class='cat'><img src='./img/Container (5).png'><span>Women’s</span><small>SALE
+            FROM 10%</small></div>
+        <div class='cat'><img src='./img/Container (6).png'><span>Kid’s</span><small>SALE UP TO
+            40%</small></div>
+      </div>
+    </section>
+
+  </div>
+  <section style='padding:20px 54px 50px;background:#fff;max-width:1280px;margin:auto;overflow:hidden'>
+    <div class='title' style='padding-top:10px'>T-shirt Printing for Everyone</div>
+    <div class='sub'>What’s more, we do it right!</div>
+    <div style='display:grid;grid-template-columns:repeat(5,1fr);gap:22px;margin:25px 0 40px' class='prodRow'>
+      <!-- Товар 1 -->
+      <div style='text-align:center'>
+        <div style='background:#f1f1f1;border-radius:50%;padding:18px;position:relative;'>
+          <img src='./img/catetory-31.jpg.png'>
+        </div>
+        <div style="margin: 10px 0;">T-shirt <sup>$15</sup></div>
+        <button class="buy-btn" data-name="T-shirt" data-price="15" data-img="./img/catetory-31.jpg.png">Add</button>
+      </div>
+
+      <!-- Товар 2 -->
+      <div style='text-align:center'>
+        <div style='background:#f1f1f1;border-radius:50%;padding:18px;'>
+          <img src='./img/catetory-32.jpg.png'>
+        </div>
+        <div style="margin: 10px 0;">Long-sleeves <sup>$20</sup></div>
+        <button class="buy-btn" data-name="Long-sleeves" data-price="20"
+          data-img="./img/catetory-32.jpg.png">Add</button>
+      </div>
+
+      <!-- Товар 3 -->
+      <div style='text-align:center'>
+        <div style='background:#f1f1f1;border-radius:50%;padding:18px;'>
+          <img src='./img/catetory-33.jpg.png'>
+        </div>
+        <div style="margin: 10px 0;">Sweater <sup>$25</sup></div>
+        <button class="buy-btn" data-name="Sweater" data-price="25" data-img="./img/catetory-33.jpg.png">Add</button>
+      </div>
+
+      <!-- Товар 4 -->
+      <div style='text-align:center'>
+        <div style='background:#f1f1f1;border-radius:50%;padding:18px;'>
+          <img src='./img/catetory-34.jpg.png'>
+        </div>
+        <div style="margin: 10px 0;">Hoodies <sup>$30</sup></div>
+        <button class="buy-btn" data-name="Hoodies" data-price="30" data-img="./img/catetory-34.jpg.png">Add</button>
+      </div>
+
+      <!-- Товар 5 -->
+      <div style='text-align:center'>
+        <div style='background:#f1f1f1;border-radius:50%;padding:18px;'>
+          <img src='./img/catetory-35.jpg.png'>
+        </div>
+        <div style="margin: 10px 0;">Tanktop <sup>$12</sup></div>
+        <button class="buy-btn" data-name="Tanktop" data-price="12" data-img="./img/catetory-35.jpg.png">Add</button>
+      </div>
+    </div>
+  </section>
+  <footer style='background:#f3f3f3;padding:45px 54px;max-width:1280px;margin:auto'>
+    <div style='display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:30px' class='footGrid'>
+      <div>
+        <div class='logo' style='font-size:42px'>Mjin</div>
+        <p class='small'>hello@teespace.io</p>
+        <p style='margin:10px 0;font-weight:700'>+02 036 038 3996</p>
+        <p class='small'>3665 Paseo Place, Suite 0960<br>San Diego</p>
+      </div>
+      <div><b>Information</b>
+        <p class='small' style='margin-top:12px'>About us<br><br>Our Blog<br><br>Start a Return</p>
+      </div>
+      <div><b>Useful links</b>
+        <p class='small' style='margin-top:12px'>My Account<br><br>Print Provider<br><br>Become a Partner</p>
+      </div>
+      <div><b>Newsletter</b>
+        <p class='small' style='margin:12px 0'>Get the latest news, events & more delivered to your inbox.</p>
+        <div style='display:flex;background:#fff;border-radius:4px;overflow:hidden'><input
+            style='flex:1;border:none;padding:12px' placeholder='Your email address'><button
+            style='border:none;padding:0 16px'>→</button></div>
+      </div>
+    </div>
+    <div style='text-align:center;margin-top:30px;font-size:13px;color:#777'>© 2025 TeeSpace. All rights reserved.</div>
+  </footer>
+  <style>
+    @media(max-width:900px) {
+      .prodRow {
+        grid-template-columns: repeat(3, 1fr) !important
+      }
+
+      .footGrid {
+        grid-template-columns: 1fr 1fr !important
+      }
+    }
+
+    @media(max-width:650px) {
+
+      .prodRow,
+      .footGrid {
+        grid-template-columns: 1fr !important
+      }
+    }
+  </style>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <!-- Левая часть с формой -->
+      <div class="modal-form-side">
+        <h2>Sign In</h2>
+
+        <div class="switch">
+          <button class="active">Регистрация</button>
+          <button>Вход</button>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password">
+          </div>
+          <button type="submit" class="submit-btn">Sign In</button>
+        </form>
+
+        <div class="divider"><span>Or</span></div>
+
+        <div class="social-btns">
+          <a href="#" class="social-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google">
+            Google
+          </a>
+          <a href="#" class="social-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+            Apple
+          </a>
+        </div>
+      </div>
+
+      <!-- Правая часть с картинкой -->
+      <div class="modal-image-side">
+        <img src="./img/chris-lee-70l1tDAI6rM-unsplash 1.png" alt="Plant">
+      </div>
+    </div>
+  </div>
+
+  <!-- CART -->
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <div class="cart" id="cart">
+
+    <div class="cart-header">
+      <h3>Shopping Cart</h3>
+
+      <div class="close-cart" id="closeCart">
+        &times;
+      </div>
+    </div>
+
+    <div class="cart-items" id="cartItems"></div>
+
+    <div class="cart-footer">
+
+      <div class="total">
+        <span>Total:</span>
+        <span id="cartTotal">$0</span>
+      </div>
+
+      <button class="checkout-btn">
+        Checkout
+      </button>
+
+    </div>
+
+  </div>
+  <!-- CHECKOUT MODAL -->
+
+  <div class="checkout-modal" id="checkoutModal">
+    <div class="checkout-content">
+      <div class="checkout-close" id="closeCheckout">
+        &times;
+      </div>
+      <h2>Payment Details</h2>
+      <form id="checkoutForm">
+        <div class="checkout-group">
+          <label>Full Name</label>
+          <input type="text" id="customerName" required>
+        </div>
+        <div class="checkout-group">
+          <label>Email</label>
+          <input type="email" id="customerEmail" required>
+        </div>
+        <div class="checkout-group">
+          <label>Card Number</label>
+          <input type="text" id="cardNumber" maxlength="19" placeholder="1234 5678 9012 3456" required>
+        </div>
+        <div class="checkout-row">
+          <div class="checkout-group">
+            <label>Expiry</label>
+            <input type="text" id="expiry" maxlength="5" placeholder="MM/YY" required>
+          </div>
+          <div class="checkout-group">
+            <label>CVV</label>
+            <input type="password" id="cvv" maxlength="3" required>
+          </div>
+        </div>
+        <div class="checkout-total">
+          Total:
+          <span id="checkoutTotal">$0</span>
+        </div>
+        <button type="submit" class="pay-btn">
+          Pay Now
+        </button>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="./js.js"></script>
+</body>
+
+</html>
