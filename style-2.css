@@ -1039,7 +1039,7 @@ img {
   background: #184c32;
 }
 
-@media (min-width: 580px) {
+@media (max-width: 580px) {
   .banner-img {
     display: none;
   }
